@@ -1,0 +1,19 @@
+
+Create Folder
+cd [folder]
+git init
+git config [--global] user.name "someone"
+git config [--global] user.email "someone@someplace.com"
+(omit --global for this repo only)
+
+create files
+
+(git status - lists new files that have not been added / not being tracked)
+
+Add a file to the staging environment (or the 'index'):
+git add <filename>
+(or "git add ." ???)
+
+Commit the new / changed files in the index:
+git commit -m "Your message about the commit"
+
